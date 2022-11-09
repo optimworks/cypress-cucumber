@@ -1,0 +1,138 @@
+[
+  {
+    "description": "    Log in to demoblaze application",
+    "keyword": "Feature",
+    "name": "Launch and Login to demoblaze application",
+    "line": 1,
+    "id": "launch-and-login-to-demoblaze-application",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "launch-and-login-to-demoblaze-application;launch-the-application",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Launch the application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Visit the demoblaze application",
+            "result": {
+              "status": "passed",
+              "duration": 1573000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify the correct application is launched",
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "launch-and-login-to-demoblaze-application;login-to-application-using-feature-file-test-data",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Login to application using feature file test data",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "vikas.voladri",
+                      "Orbita@11"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "Enter the username and password from feature file",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: Timed out retrying after 4000ms: `cy.type()` failed because this element is detached from the DOM.\n\n`<input type=\"text\" class=\"form-control\" id=\"loginusername\">`\n\nCypress requires elements be attached in the DOM to interact with them.\n\nThe previous command that ran was:\n\n  > `cy.get()`\n\nThis DOM element likely became detached somewhere between the previous and current command.\n\nCommon situations why this happens:\n  - Your JS framework re-rendered asynchronously\n  - Your app code reacted to an event firing and removed the element\n\nYou typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.\n    at $Cy.ensureAttached (https://demoblaze.com/__cypress/runner/cypress_runner.js:147670:76)\n    at runAllChecks (https://demoblaze.com/__cypress/runner/cypress_runner.js:133504:12)\n    at retryActionability (https://demoblaze.com/__cypress/runner/cypress_runner.js:133584:16)\nFrom previous event:\n    at whenStable (https://demoblaze.com/__cypress/runner/cypress_runner.js:152885:65)\n    at <unknown> (https://demoblaze.com/__cypress/runner/cypress_runner.js:152294:14)\nFrom Your Spec Code:\n    at Object.loginToApplication (cypress/pages/LoginPage.js:17:45)\n    at Context.eval (cypress/integration/login/demoblazeLogin.js:25:14)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "verify correct user is logged in",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "launch-and-login-to-demoblaze-application;login-to-application-from-fixture-file-data",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Login to application from fixture file data",
+        "tags": [
+          {
+            "name": "@fixture",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "Visit the demoblaze application",
+            "result": {
+              "status": "passed",
+              "duration": 897000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Enter the username and password from fixture file",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: Timed out retrying after 4000ms: `cy.type()` failed because this element is detached from the DOM.\n\n`<input type=\"text\" class=\"form-control\" id=\"loginusername\">`\n\nCypress requires elements be attached in the DOM to interact with them.\n\nThe previous command that ran was:\n\n  > `cy.get()`\n\nThis DOM element likely became detached somewhere between the previous and current command.\n\nCommon situations why this happens:\n  - Your JS framework re-rendered asynchronously\n  - Your app code reacted to an event firing and removed the element\n\nYou typically need to re-query for the element or add 'guards' which delay Cypress from running new commands.\n    at $Cy.ensureAttached (https://demoblaze.com/__cypress/runner/cypress_runner.js:147670:76)\n    at runAllChecks (https://demoblaze.com/__cypress/runner/cypress_runner.js:133504:12)\n    at retryActionability (https://demoblaze.com/__cypress/runner/cypress_runner.js:133584:16)\nFrom previous event:\n    at whenStable (https://demoblaze.com/__cypress/runner/cypress_runner.js:152885:65)\n    at <unknown> (https://demoblaze.com/__cypress/runner/cypress_runner.js:152294:14)\nFrom Your Spec Code:\n    at Object.loginToApplication (cypress/pages/LoginPage.js:17:45)\n    at Context.eval (cypress/integration/login/demoblazeLogin.js:33:14)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "verify correct user is logged in",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
