@@ -1,0 +1,222 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Add laptop product to cart item",
+    "line": 1,
+    "id": "add-laptop-product-to-cart-item",
+    "tags": [],
+    "uri": "addItemToCart.feature",
+    "elements": [
+      {
+        "id": "add-laptop-product-to-cart-item;login-to-application",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login to application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Visit the demoblaze application",
+            "result": {
+              "status": "passed",
+              "duration": 6758000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Verify the correct application is launched",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter the username and password",
+            "result": {
+              "status": "passed",
+              "duration": 8008000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify correct user is logged in",
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-laptop-product-to-cart-item;open-laptops-category-and-click-next-page",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Open Laptops category and click next page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Visit the demoblaze application",
+            "result": {
+              "status": "passed",
+              "duration": 5346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Verify the correct application is launched",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "User click on Laptops category",
+            "result": {
+              "status": "passed",
+              "duration": 2156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify Laptops category is navigated",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "User click next button at bottom page corner",
+            "result": {
+              "status": "passed",
+              "duration": 2156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Verify there is no Next button in the navigated page",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "add-laptop-product-to-cart-item;add-one-product-to-cart-from-laptops-category",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Add one product to cart from Laptops category",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Visit the demoblaze application",
+            "result": {
+              "status": "passed",
+              "duration": 6633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Verify the correct application is launched",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "User click next button at bottom page corner",
+            "result": {
+              "status": "passed",
+              "duration": 2132000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "Verify there is no Next button in the navigated page",
+            "result": {
+              "status": "passed",
+              "duration": 39000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "User click on first product in Laptops category",
+            "result": {
+              "status": "passed",
+              "duration": 1388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "Verify the selected product item",
+            "result": {
+              "status": "passed",
+              "duration": 1151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User click Add to cart",
+            "result": {
+              "status": "passed",
+              "duration": 2172000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Verify correct product is added to cart",
+            "result": {
+              "status": "passed",
+              "duration": 2558000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
