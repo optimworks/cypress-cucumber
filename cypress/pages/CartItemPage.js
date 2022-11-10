@@ -1,4 +1,4 @@
-var cartItemLocators = require('../locators/CartItemLocators.js');
+var cartItemLocators = require('../pageLocators/CartItemLocators.js');
 
 
 export function CheckItemInCart() {
