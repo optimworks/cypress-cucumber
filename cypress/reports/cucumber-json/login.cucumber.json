@@ -1,0 +1,134 @@
+[
+  {
+    "description": "    Log in to demoblaze application",
+    "keyword": "Feature",
+    "name": "Launch and Login to demoblaze application",
+    "line": 1,
+    "id": "launch-and-login-to-demoblaze-application",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "launch-and-login-to-demoblaze-application;launch-the-application",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Launch the application",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Visit the demoblaze application",
+            "result": {
+              "status": "undefined",
+              "duration": 37000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify the correct application is launched",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "launch-and-login-to-demoblaze-application;login-to-application-using-feature-file-test-data",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Login to application using feature file test data",
+        "tags": [
+          {
+            "name": "@feature",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "vikas.voladri",
+                      "Orbita@11"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "Enter the username and password from feature file",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "verify correct user is logged in",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "launch-and-login-to-demoblaze-application;login-to-application-from-fixture-file-data",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Login to application from fixture file data",
+        "tags": [
+          {
+            "name": "@fixture",
+            "line": 16
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "Visit the demoblaze application",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "Enter the username and password from fixture file",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "verify correct user is logged in",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

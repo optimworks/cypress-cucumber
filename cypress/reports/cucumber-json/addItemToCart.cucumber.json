@@ -21,8 +21,8 @@
             "line": 4,
             "name": "Visit the demoblaze application",
             "result": {
-              "status": "passed",
-              "duration": 6426000000
+              "status": "undefined",
+              "duration": 79000000
             }
           },
           {
@@ -31,8 +31,7 @@
             "line": 5,
             "name": "Verify the correct application is launched",
             "result": {
-              "status": "passed",
-              "duration": 10000000
+              "status": "skipped"
             }
           },
           {
@@ -41,8 +40,7 @@
             "line": 8,
             "name": "Enter the username and password",
             "result": {
-              "status": "passed",
-              "duration": 7897000000
+              "status": "skipped"
             }
           },
           {
@@ -51,8 +49,7 @@
             "line": 9,
             "name": "Verify correct user is logged in",
             "result": {
-              "status": "passed",
-              "duration": 25000000
+              "status": "skipped"
             }
           }
         ]
@@ -71,8 +68,7 @@
             "line": 4,
             "name": "Visit the demoblaze application",
             "result": {
-              "status": "passed",
-              "duration": 5653000000
+              "status": "undefined"
             }
           },
           {
@@ -81,8 +77,7 @@
             "line": 5,
             "name": "Verify the correct application is launched",
             "result": {
-              "status": "passed",
-              "duration": 9000000
+              "status": "skipped"
             }
           },
           {
@@ -91,8 +86,7 @@
             "line": 12,
             "name": "User click on Laptops category",
             "result": {
-              "status": "passed",
-              "duration": 2158000000
+              "status": "skipped"
             }
           },
           {
@@ -101,8 +95,7 @@
             "line": 13,
             "name": "Verify Laptops category is navigated",
             "result": {
-              "status": "passed",
-              "duration": 16000000
+              "status": "skipped"
             }
           },
           {
@@ -111,8 +104,7 @@
             "line": 14,
             "name": "User click next button at bottom page corner",
             "result": {
-              "status": "passed",
-              "duration": 2130000000
+              "status": "skipped"
             }
           },
           {
@@ -121,8 +113,7 @@
             "line": 15,
             "name": "Verify there is no Next button in the navigated page",
             "result": {
-              "status": "passed",
-              "duration": 33000000
+              "status": "skipped"
             }
           }
         ]
@@ -141,8 +132,7 @@
             "line": 4,
             "name": "Visit the demoblaze application",
             "result": {
-              "status": "passed",
-              "duration": 6677000000
+              "status": "undefined"
             }
           },
           {
@@ -151,8 +141,7 @@
             "line": 5,
             "name": "Verify the correct application is launched",
             "result": {
-              "status": "passed",
-              "duration": 8000000
+              "status": "skipped"
             }
           },
           {
@@ -161,8 +150,7 @@
             "line": 18,
             "name": "User click next button at bottom page corner",
             "result": {
-              "status": "passed",
-              "duration": 2146000000
+              "status": "skipped"
             }
           },
           {
@@ -171,8 +159,7 @@
             "line": 19,
             "name": "Verify there is no Next button in the navigated page",
             "result": {
-              "status": "passed",
-              "duration": 24000000
+              "status": "skipped"
             }
           },
           {
@@ -181,8 +168,7 @@
             "line": 20,
             "name": "User click on first product in Laptops category",
             "result": {
-              "status": "passed",
-              "duration": 1115000000
+              "status": "skipped"
             }
           },
           {
@@ -191,8 +177,7 @@
             "line": 21,
             "name": "Verify the selected product item",
             "result": {
-              "status": "passed",
-              "duration": 974000000
+              "status": "skipped"
             }
           },
           {
@@ -201,8 +186,7 @@
             "line": 22,
             "name": "User click Add to cart",
             "result": {
-              "status": "passed",
-              "duration": 2138000000
+              "status": "skipped"
             }
           },
           {
@@ -211,8 +195,7 @@
             "line": 23,
             "name": "Verify correct product is added to cart",
             "result": {
-              "status": "passed",
-              "duration": 2765000000
+              "status": "skipped"
             }
           }
         ]
